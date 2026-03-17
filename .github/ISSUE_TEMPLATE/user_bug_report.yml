@@ -65,7 +65,8 @@ body:
     id: browser_version
     attributes:
       label: Browser Version
-      placeholder: "Provide the version of the browser you are using if applicable"
+      description: "Provide the version of the browser you are using if applicable"
+      placeholder: "Run: `edge://settings/help` for Edge, `chrome://settings/help` for Chrome, `about:support` for Firefox, etc."
 
   - type: textarea
     id: error_messages
@@ -78,7 +79,7 @@ body:
         - **Console errors** (for web app users) - check your browser's developer tools (F12) for red errors
         
         
-        Just paste or drag them above. Images help us a lot!
+        Just paste or drag them below. Images help us a lot!
       placeholder: "Paste or drag screenshots and error messages here"
 
   - type: textarea
